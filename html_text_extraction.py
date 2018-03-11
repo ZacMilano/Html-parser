@@ -92,5 +92,6 @@ class ParsedText():
     visible_text_fields = filter(self.element_is_visible, text_fields)
     return u' '.join(vis_txt.strip() for vis_txt in visible_text_fields)
 
-a = ParsedText('http://docs.sqlalchemy.org/en/latest/core/event.html')
-print(a.get_text())
+# This is an example that I used for testing.
+# a = ParsedText('http://docs.sqlalchemy.org/en/latest/core/event.html')
+# print(a.get_text())
